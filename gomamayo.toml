@@ -7,3 +7,11 @@ url = "https://github.com/jugesuke/gomamayo"
 lang = "Golang"
 label = "yulog/go-gomamayo"
 url = "https://github.com/yulog/go-gomamayo"
+
+[[websites]]
+title = "ゴママヨ\\-用語集 \\| しなちくシステム"
+url = "https://thinaticsystem.com/glossary/gomamayo"
+
+[[websites]]
+title = "【論説】ゴママヨおよびそれに付随するさまざまな現象の研究 - 0と1の間でティータイム "
+url = "https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317"

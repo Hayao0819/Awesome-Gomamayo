@@ -14,7 +14,7 @@ type Repo struct {
 }
 
 type Website struct {
-	Label string `toml:"label"`
+	Title string `toml:"title"`
 	Url   string `toml:"url"`
 }
 

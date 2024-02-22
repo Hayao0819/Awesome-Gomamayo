@@ -6,11 +6,9 @@ import (
 
 	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
 	"github.com/Hayao0819/nahi/cobrautils"
+	"github.com/Hayao0819/nahi/tputils"
 	"github.com/spf13/cobra"
 )
-
-
-
 
 func generateCmd() *cobra.Command {
 	var pwd string
@@ -33,8 +31,13 @@ func generateCmd() *cobra.Command {
 				return err
 			}
 
-			cmd.Println(*conf)
-			cmd.Println(conf.ToTemplateData())
+			tmplData := conf.ToTemplateData()
+
+			data, err := tputils.ApplyTemplate(path.Join(pwd, "assets", "template.md"), tmplData)
+			if err != nil {
+				return err
+			}
+			cmd.Println(data)
 			return nil
 		},
 	}

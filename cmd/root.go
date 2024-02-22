@@ -9,7 +9,6 @@ func Root() *cobra.Command {
 	cmd := cobra.Command{
 		Use:           "mamayo",
 		Short:         "mamayo is a tool to manage awesome Gomamayo",
-		SilenceErrors: true,
 		SilenceUsage:  true,
 	}
 
