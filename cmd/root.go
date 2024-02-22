@@ -7,12 +7,13 @@ import (
 
 func Root() *cobra.Command {
 	cmd := cobra.Command{
-		Use:           "mamayo",
-		Short:         "mamayo is a tool to manage awesome Gomamayo",
-		SilenceUsage:  true,
+		Use:          "mamayo",
+		Short:        "mamayo is a tool to manage awesome Gomamayo",
+		SilenceUsage: true,
 	}
 
 	cobrautils.AddSubCmdsToRoot(&cmd)
+	cmd.CompletionOptions.DisableDefaultCmd = true
 
 	return &cmd
 }
