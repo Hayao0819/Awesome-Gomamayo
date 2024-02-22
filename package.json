@@ -1,0 +1,14 @@
+{
+  "name": "awasome-gomamayo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "WTFPL",
+  "dependencies": {
+    "markdownlint": "^0.33.0"
+  },
+  "volta": {
+    "node": "20.11.1"
+  }
+}
