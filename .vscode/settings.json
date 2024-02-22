@@ -19,5 +19,8 @@
             "fileMatch": [".prettierrc.json"],
             "url": "https://json.schemastore.org/prettierrc.json"
         }
-    ]
+    ],
+    "[toml]": {
+        "editor.defaultFormatter": "tamasfe.even-better-toml"
+    }
 }

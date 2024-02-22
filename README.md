@@ -1,4 +1,4 @@
-# Awasome Gomamayo
+# Awesome Gomamayo
 
 偉業なゴママヨ実装を纏めています。PR大歓迎です。
 
