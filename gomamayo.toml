@@ -1,0 +1,9 @@
+[[repos]]
+lang = "Golang"
+label = "jugesuke/gomamayo"
+url = "https://github.com/jugesuke/gomamayo"
+
+[[repos]]
+lang = "Golang"
+label = "yulog/go-gomamayo"
+url = "https://github.com/yulog/go-gomamayo"
