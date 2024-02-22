@@ -1,4 +1,23 @@
 {
-  "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-  "editor.defaultFoldingRangeProvider": "vscode.markdown-language-features"
+    // Style
+    "editor.tabSize": 4,
+
+    // Formatting
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.defaultFoldingRangeProvider": "vscode.markdown-language-features",
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    // Schemas
+    "json.schemas": [
+        {
+            "fileMatch": [".markdownlint.json"],
+            "url": "https://raw.githubusercontent.com/DavidAnson/markdownlint/main/schema/markdownlint-config-schema.json"
+        },
+        {
+            "fileMatch": [".prettierrc.json"],
+            "url": "https://json.schemastore.org/prettierrc.json"
+        }
+    ]
 }
