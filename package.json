@@ -6,7 +6,7 @@
   },
   "license": "WTFPL",
   "dependencies": {
-    "markdownlint": "^0.33.0",
+    "markdownlint-cli": "^0.39.0",
     "prettier": "^3.2.5"
   },
   "volta": {

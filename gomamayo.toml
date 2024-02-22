@@ -1,4 +1,19 @@
 [[repos]]
+lang = "C / C++"
+label = "jj1lis/gomamayo"
+url = "https://github.com/jj1lis/gomamayo"
+
+[[repos]]
+lang = "JavaScript / TypeScript"
+label = "na2na-p/gomamayo-deno"
+url = "https://github.com/na2na-p/gomamayo-deno"
+
+[[repos]]
+lang = "JavaScript / TypeScript"
+label = "ThinaticSystem/gomamayo.js"
+url = "https://github.com/ThinaticSystem/gomamayo.js"
+
+[[repos]]
 lang = "Golang"
 label = "jugesuke/gomamayo"
 url = "https://github.com/jugesuke/gomamayo"
@@ -7,6 +22,21 @@ url = "https://github.com/jugesuke/gomamayo"
 lang = "Golang"
 label = "yulog/go-gomamayo"
 url = "https://github.com/yulog/go-gomamayo"
+
+[[repos]]
+lang = "Python"
+label = "AkaakuHub/gomamayo"
+url = "https://github.com/AkaakuHub/gomamayo"
+
+[[repos]]
+lang = "Python"
+label = "mitei1720/discordbot/libs/gomi_util.py"
+url = "https://github.com/mitei1720/discordbot/blob/6c957d489da6970b8264e049a79adefed7c9698d/libs/goma_util.py#L13"
+
+[[repos]]
+lang = "Scala"
+label = "windymelt/gomamayo4s"
+url = "https://github.com/windymelt/gomamayo4s"
 
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"

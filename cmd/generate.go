@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"os"
+	"os/exec"
 	"path"
 
 	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
@@ -10,12 +11,12 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func generateCmd() *cobra.Command {
+func makeCmd() *cobra.Command {
 	var pwd string
 
 	cmd := cobra.Command{
-		Use:     "generate",
-		Aliases: []string{"g", "gen"},
+		Use:     "make",
+		Aliases: []string{"m"},
 		Short:   "generate README.md",
 		PreRunE: func(cmd *cobra.Command, args []string) error {
 			var err error
@@ -37,7 +38,13 @@ func generateCmd() *cobra.Command {
 			if err != nil {
 				return err
 			}
-			cmd.Println(data)
+
+			if err := os.WriteFile(path.Join(pwd, "README.md"), data.Bytes(), 0644); err != nil {
+				return err
+			}
+
+			exec.Command("pnpm", "markdownlint", "-f", path.Join(pwd, "README.md")).Run()
+
 			return nil
 		},
 	}
@@ -46,5 +53,5 @@ func generateCmd() *cobra.Command {
 }
 
 func init() {
-	cobrautils.AddSubCmds(generateCmd())
+	cobrautils.AddSubCmds(makeCmd())
 }

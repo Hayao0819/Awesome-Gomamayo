@@ -16,21 +16,30 @@
 
 - [jj1lis/gomamayo](https://github.com/jj1lis/gomamayo)
 
-### JavaScript / TypeScript
-
-- [na2na-p/gomamayo-deno](https://github.com/na2na-p/gomamayo-deno) Deno実装
-- [ThinaticSystem/gomamayo.js](https://github.com/ThinaticSystem/gomamayo.js)
-
 ### Golang
 
 - [jugesuke/gomamayo](https://github.com/jugesuke/gomamayo)
+
 - [yulog/go-gomamayo](https://github.com/yulog/go-gomamayo)
+
+### JavaScript / TypeScript
+
+- [na2na-p/gomamayo-deno](https://github.com/na2na-p/gomamayo-deno)
+
+- [ThinaticSystem/gomamayo.js](https://github.com/ThinaticSystem/gomamayo.js)
 
 ### Python
 
 - [AkaakuHub/gomamayo](https://github.com/AkaakuHub/gomamayo)
+
 - [mitei1720/discordbot/libs/gomi_util.py](https://github.com/mitei1720/discordbot/blob/6c957d489da6970b8264e049a79adefed7c9698d/libs/goma_util.py#L13)
 
 ### Scala
 
 - [windymelt/gomamayo4s](https://github.com/windymelt/gomamayo4s)
+
+## 参考文献
+
+- [ゴママヨ\-用語集 \| しなちくシステム](https://thinaticsystem.com/glossary/gomamayo)
+
+- [【論説】ゴママヨおよびそれに付随するさまざまな現象の研究 - 0と1の間でティータイム](https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317)
