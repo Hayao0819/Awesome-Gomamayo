@@ -29,7 +29,7 @@ func sortCmd() *cobra.Command {
 			sort.Strings(newTestcase.Uncategorized)
 
 			// write
-			if err := newTestcase.Write(testcasePath); err != nil {
+			if err := newTestcase.WriteJson(testcasePath); err != nil {
 				return err
 			}
 

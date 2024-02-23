@@ -31,6 +31,6 @@ func Cmd() *cobra.Command {
 		},
 	}
 
-	cmd.AddCommand(sortCmd(), dupCommand())
+	cmd.AddCommand(sortCmd(), dupCommand(), checkCmd(), makeCmd())
 	return &cmd
 }
