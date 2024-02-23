@@ -18,6 +18,10 @@
         {
             "fileMatch": [".prettierrc.json"],
             "url": "https://json.schemastore.org/prettierrc.json"
+        },
+        {
+            "fileMatch": ["gomamayo.json"],
+            "url": "/test/gomamayo.schema.json"
         }
     ],
     "[toml]": {

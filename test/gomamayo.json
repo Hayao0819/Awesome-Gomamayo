@@ -223,7 +223,14 @@
             "dim": 2
         }
     ],
-    "not-gomamayo": [],
+    "not-gomamayo": [
+        {
+            "word": "群馬銀行",
+            "yomi": "ぐんまぎんこう",
+            "terms": 0,
+            "dim": 0
+        }
+    ],
     "uncategorized": [
         "電子書籍",
         "メモリリーク",

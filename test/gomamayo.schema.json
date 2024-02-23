@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+        "gomamayo": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "word": {
+                        "type": "string"
+                    },
+                    "yomi": {
+                        "type": "string"
+                    },
+                    "terms": {
+                        "type": "number"
+                    },
+                    "dim": {
+                        "type": "number"
+                    }
+                },
+                "required": ["word", "yomi", "terms", "dim"]
+            }
+        },
+        "not-gomamayo": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "word": {
+                        "type": "string"
+                    },
+                    "yomi": {
+                        "type": "string"
+                    },
+                    "terms": {
+                        "type": "number"
+                    },
+                    "dim": {
+                        "type": "number"
+                    }
+                },
+                "required": ["word", "yomi", "terms", "dim"]
+            }
+        },
+        "uncategorized": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": ["gomamayo", "not-gomamayo", "uncategorized"]
+}
