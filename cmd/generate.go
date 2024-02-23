@@ -12,20 +12,11 @@ import (
 )
 
 func makeCmd() *cobra.Command {
-	var pwd string
 
 	cmd := cobra.Command{
 		Use:     "make",
 		Aliases: []string{"m"},
 		Short:   "generate README.md",
-		PreRunE: func(cmd *cobra.Command, args []string) error {
-			var err error
-			pwd, err = os.Getwd()
-			if err != nil {
-				return err
-			}
-			return nil
-		},
 		RunE: func(cmd *cobra.Command, args []string) error {
 			conf, err := gomamayo.Read(path.Join(pwd, "gomamayo.toml"))
 			if err != nil {

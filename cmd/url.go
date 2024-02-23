@@ -3,7 +3,6 @@ package cmd
 import (
 	"errors"
 	"net/url"
-	"os"
 	"path"
 
 	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
@@ -11,20 +10,12 @@ import (
 	"github.com/spf13/cobra"
 )
 
-func checkCmd() *cobra.Command {
-	var pwd string
+func urlCmd() *cobra.Command {
 	cmd := cobra.Command{
-		Use:     "check",
-		Aliases: []string{"c"},
-		Short:   "check gomamayo.toml",
-		PreRunE: func(cmd *cobra.Command, args []string) error {
-			var err error
-			pwd, err = os.Getwd()
-			if err != nil {
-				return err
-			}
-			return nil
-		},
+		Use:     "url",
+		Aliases: []string{"u"},
+		Short:   "check URL in gomamayo.toml",
+
 		RunE: func(cmd *cobra.Command, args []string) error {
 			conf, err := gomamayo.Read(path.Join(pwd, "gomamayo.toml"))
 			if err != nil {
@@ -42,6 +33,7 @@ func checkCmd() *cobra.Command {
 			}
 
 			for _, u := range urls {
+				cmd.PrintErrln("checking", u)
 				if _, err := url.ParseRequestURI(u); err != nil {
 					errs = append(errs, err)
 				}
@@ -60,5 +52,5 @@ func checkCmd() *cobra.Command {
 }
 
 func init() {
-	cobrautils.AddSubCmds(checkCmd())
+	cobrautils.AddSubCmds(urlCmd())
 }
