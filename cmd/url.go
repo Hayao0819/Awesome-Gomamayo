@@ -25,7 +25,7 @@ func urlCmd() *cobra.Command {
 			var urls []string
 			var errs []error
 
-			for _, r := range conf.Repos {
+			for _, r := range conf.Codes {
 				urls = append(urls, r.Url)
 			}
 			for _, w := range conf.Websites {

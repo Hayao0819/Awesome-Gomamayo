@@ -38,8 +38,17 @@
 
 - [windymelt/gomamayo4s](https://github.com/windymelt/gomamayo4s)
 
+### その他
+
+- [AtCoder OUPC 2023 Day1 B Gomamayo](https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1)
+
+  AtCoderへの提出 一次多項ゴママヨの検出を行うことができます  
+  RustやJava, Swift, PHP等で記述されたものも存在します
+
 ## 参考文献
 
 - [ゴママヨ\-用語集 \| しなちくシステム](https://thinaticsystem.com/glossary/gomamayo)
 
 - [【論説】ゴママヨおよびそれに付随するさまざまな現象の研究 - 0と1の間でティータイム](https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317)
+
+- [OUPC 2023 Day1 : 大阪大学セット B Gomamayo](https://atcoder.jp/contests/oupc2023-day1/tasks/oupc2023_day1_b)

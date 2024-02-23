@@ -1,21 +1,26 @@
 package gomamayo
 
+import "strings"
+
 type templateData struct {
-	Repos    map[string]RepoList
+	Codes    map[string]CodeList
 	Websites []*Website
 }
 
 func (c *Config) ToTemplateData() templateData {
 	data := templateData{
-		Repos:    make(map[string]RepoList),
+		Codes:    make(map[string]CodeList),
 		Websites: c.Websites,
 	}
 
-	for _, r := range c.Repos {
-		if _, ok := data.Repos[r.Lang]; !ok {
-			data.Repos[r.Lang] = make(RepoList, 0)
+	for _, r := range c.Codes {
+		if _, ok := data.Codes[r.Lang]; !ok {
+			data.Codes[r.Lang] = make(CodeList, 0)
 		}
-		data.Repos[r.Lang] = append(data.Repos[r.Lang], r)
+
+		r.Desc = strings.ReplaceAll(r.Desc, "\n", "  \n  ")
+
+		data.Codes[r.Lang] = append(data.Codes[r.Lang], r)
 	}
 
 	return data

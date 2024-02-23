@@ -11,10 +11,12 @@
 ゴママヨには[様々な種類](https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317)が存在しています。
 
 ## 実装
-{{ range $lang, $repos := .Repos }}
+{{ range $lang, $codes := .Codes }}
 ### {{ $lang }}
-{{ range $repos }}
+{{ range $codes }}
 - [{{ .Label }}]({{ .Url }})
+
+  {{ .Desc }}
 {{ end }}
 {{ end }}
 ## 参考文献

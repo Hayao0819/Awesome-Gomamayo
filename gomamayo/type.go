@@ -7,25 +7,27 @@ import (
 	"github.com/pelletier/go-toml/v2"
 )
 
-type Repo struct {
+type Code struct {
 	Lang  string `toml:"lang"`
 	Label string `toml:"label"`
 	Url   string `toml:"url"`
+	Desc  string `toml:"desc"`
 }
 
 type Website struct {
 	Title string `toml:"title"`
 	Url   string `toml:"url"`
+	Desc  string `toml:"desc"`
 }
 
-type RepoList []*Repo
+type CodeList []*Code
 
 type Config struct {
-	Repos    RepoList  `toml:"repos"`
+	Codes    CodeList   `toml:"code"`
 	Websites []*Website `toml:"websites"`
 }
 
-func (l *RepoList) GetLangList() []string {
+func (l *CodeList) GetLangList() []string {
 	var list []string
 	for _, r := range *l {
 		list = append(list, r.Lang)

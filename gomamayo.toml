@@ -1,42 +1,48 @@
-[[repos]]
+[[code]]
 lang = "C / C++"
 label = "jj1lis/gomamayo"
 url = "https://github.com/jj1lis/gomamayo"
 
-[[repos]]
+[[code]]
 lang = "JavaScript / TypeScript"
 label = "na2na-p/gomamayo-deno"
 url = "https://github.com/na2na-p/gomamayo-deno"
 
-[[repos]]
+[[code]]
 lang = "JavaScript / TypeScript"
 label = "ThinaticSystem/gomamayo.js"
 url = "https://github.com/ThinaticSystem/gomamayo.js"
 
-[[repos]]
+[[code]]
 lang = "Golang"
 label = "jugesuke/gomamayo"
 url = "https://github.com/jugesuke/gomamayo"
 
-[[repos]]
+[[code]]
 lang = "Golang"
 label = "yulog/go-gomamayo"
 url = "https://github.com/yulog/go-gomamayo"
 
-[[repos]]
+[[code]]
 lang = "Python"
 label = "AkaakuHub/gomamayo"
 url = "https://github.com/AkaakuHub/gomamayo"
 
-[[repos]]
+[[code]]
 lang = "Python"
 label = "mitei1720/discordbot/libs/gomi_util.py"
 url = "https://github.com/mitei1720/discordbot/blob/6c957d489da6970b8264e049a79adefed7c9698d/libs/goma_util.py#L13"
 
-[[repos]]
+[[code]]
 lang = "Scala"
 label = "windymelt/gomamayo4s"
 url = "https://github.com/windymelt/gomamayo4s"
+
+[[code]]
+lang = "その他"
+label = "AtCoder OUPC 2023 Day1 B Gomamayo"
+url = "https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1"
+desc = "AtCoderへの提出 一次多項ゴママヨの検出を行うことができます\nRustやJava, Swift, PHP等で記述されたものも存在します"
 
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"
@@ -45,3 +51,7 @@ url = "https://thinaticsystem.com/glossary/gomamayo"
 [[websites]]
 title = "【論説】ゴママヨおよびそれに付随するさまざまな現象の研究 - 0と1の間でティータイム"
 url = "https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317"
+
+[[websites]]
+title = "OUPC 2023 Day1 : 大阪大学セット B Gomamayo"
+url = "https://atcoder.jp/contests/oupc2023-day1/tasks/oupc2023_day1_b"
