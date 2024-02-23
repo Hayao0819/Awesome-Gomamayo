@@ -14,7 +14,15 @@ pnpm run build
 
 ## mamayoについて
 
-mamayoはGolangで記述された管理ツールです。
+mamayoはGolangで記述された管理ツールです。現在、以下のサブコマンドが実装されています。
+
+- make READMEを生成します
+- url URLをチェックします
+- testcase
+  - check 全てのチェックを実行します
+  - dup   重複がないかチェックします
+  - make  `gomamayo.csv` `gomamayo.txt`を生成します
+  - sort  `gomamayo.json`をソートします
 
 ## 主に編集するべき場所
 
