@@ -34,6 +34,10 @@
 
 - [mitei1720/discordbot/libs/gomi_util.py](https://github.com/mitei1720/discordbot/blob/6c957d489da6970b8264e049a79adefed7c9698d/libs/goma_util.py#L13)
 
+### Rust
+
+- [statiolake/gomamayo-rs](https://github.com/statiolake/gomamayo-rs)
+
 ### Scala
 
 - [windymelt/gomamayo4s](https://github.com/windymelt/gomamayo4s)
