@@ -6,11 +6,13 @@ url = "https://github.com/jj1lis/gomamayo"
 [[code]]
 lang = "JavaScript / TypeScript"
 label = "na2na-p/gomamayo-deno"
+desc = "Denoで動作するゴママヨ検出ライブラリ"
 url = "https://github.com/na2na-p/gomamayo-deno"
 
 [[code]]
 lang = "JavaScript / TypeScript"
 label = "ThinaticSystem/gomamayo.js"
+desc = "Node.jsで動作するしなちくシステム製のライブラリ"
 url = "https://github.com/ThinaticSystem/gomamayo.js"
 
 [[code]]
@@ -31,6 +33,7 @@ url = "https://github.com/AkaakuHub/gomamayo"
 [[code]]
 lang = "Python"
 label = "mitei1720/discordbot/libs/gomi_util.py"
+desc = "DiscordのBotとして実装されているゴママヨ"
 url = "https://github.com/mitei1720/discordbot/blob/6c957d489da6970b8264e049a79adefed7c9698d/libs/goma_util.py#L13"
 
 [[code]]
@@ -47,7 +50,7 @@ url = "https://github.com/statiolake/gomamayo-rs"
 lang = "その他"
 label = "AtCoder OUPC 2023 Day1 B Gomamayo"
 url = "https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1"
-desc = "AtCoderへの提出 一次多項ゴママヨの検出を行うことができます\nRustやJava, Swift, PHP等で記述されたものも存在します"
+desc = "一次多項ゴママヨの検出を行う\nRustやJava, Swift, PHP等で記述されたものもある"
 
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"
