@@ -48,6 +48,10 @@
 
 - [windymelt/gomamayo4s](https://github.com/windymelt/gomamayo4s)
 
+### Vlang
+
+- [https://github.com/lemoncmd/gomamayo-v](https://github.com/lemoncmd/gomamayo-v)
+
 ### その他
 
 - [AtCoder OUPC 2023 Day1 B Gomamayo](https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1)
