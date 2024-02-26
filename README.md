@@ -50,7 +50,7 @@
 
 ### Vlang
 
-- [https://github.com/lemoncmd/gomamayo-v](https://github.com/lemoncmd/gomamayo-v)
+- [lemoncmd/gomamayo-v](https://github.com/lemoncmd/gomamayo-v)
 
 ### その他
 
