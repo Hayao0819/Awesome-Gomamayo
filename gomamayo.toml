@@ -52,6 +52,11 @@ label = "lemoncmd/gomamayo-v"
 url = "https://github.com/lemoncmd/gomamayo-v"
 
 [[code]]
+lang = "Swift"
+label = "woxtu/swift-gomamayo"
+url = "https://github.com/woxtu/swift-gomamayo"
+
+[[code]]
 lang = "その他"
 label = "AtCoder OUPC 2023 Day1 B Gomamayo"
 url = "https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1"

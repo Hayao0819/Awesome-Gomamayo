@@ -48,6 +48,10 @@
 
 - [windymelt/gomamayo4s](https://github.com/windymelt/gomamayo4s)
 
+### Swift
+
+- [woxtu/swift-gomamayo](https://github.com/woxtu/swift-gomamayo)
+
 ### Vlang
 
 - [lemoncmd/gomamayo-v](https://github.com/lemoncmd/gomamayo-v)
