@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
+	"github.com/Hayao0819/awesome-gomamayo/cmd/gomamayo"
 	"github.com/Hayao0819/nahi/cobrautils"
 	"github.com/spf13/cobra"
 )

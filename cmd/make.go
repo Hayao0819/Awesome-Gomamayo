@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"path"
 
-	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
+	"github.com/Hayao0819/awesome-gomamayo/cmd/gomamayo"
 	"github.com/Hayao0819/nahi/cobrautils"
 	"github.com/Hayao0819/nahi/tputils"
 	"github.com/spf13/cobra"
@@ -16,7 +16,7 @@ func makeCmd() *cobra.Command {
 	cmd := cobra.Command{
 		Use:     "make",
 		Aliases: []string{"m"},
-		Short:   "generate README.md",
+		Short:   "make README.md",
 		RunE: func(cmd *cobra.Command, args []string) error {
 			conf, err := gomamayo.Read(path.Join(pwd, "gomamayo.toml"))
 			if err != nil {
