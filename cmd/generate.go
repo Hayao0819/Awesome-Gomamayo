@@ -2,7 +2,6 @@ package cmd
 
 import (
 	"os"
-	"os/exec"
 	"path"
 
 	"github.com/Hayao0819/awesome-gomamayo/gomamayo"
@@ -34,7 +33,7 @@ func makeCmd() *cobra.Command {
 				return err
 			}
 
-			exec.Command("pnpm", "markdownlint", "-f", path.Join(pwd, "README.md")).Run()
+			//exec.Command("pnpm", "markdownlint", "-f", path.Join(pwd, "README.md")).Run()
 
 			return nil
 		},
