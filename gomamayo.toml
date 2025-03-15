@@ -62,6 +62,11 @@ label = "AtCoder OUPC 2023 Day1 B Gomamayo"
 url = "https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1"
 desc = "一次多項ゴママヨの検出を行う\nRustやJava, Swift, PHP等で記述されたものもある"
 
+[[code]]
+lang = "その他"
+label = "open-gomamayo/gomamayo"
+url = "https://github.com/open-gomamayo/gomamayo"
+
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"
 url = "https://thinaticsystem.com/glossary/gomamayo"
@@ -73,3 +78,7 @@ url = "https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317"
 [[websites]]
 title = "OUPC 2023 Day1 : 大阪大学セット B Gomamayo"
 url = "https://atcoder.jp/contests/oupc2023-day1/tasks/oupc2023_day1_b"
+
+[[websites]]
+title = "Gomamayo Share"
+url = "https://gomamayo-share.vercel.app/"

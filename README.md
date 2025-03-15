@@ -12,7 +12,7 @@
 
 ## 実装
 
-現在 9 個の言語による 12 個の実装が掲載されています。
+現在 9 個の言語による 13 個の実装が掲載されています。
 ### C / C++
 - [jj1lis/gomamayo](https://github.com/jj1lis/gomamayo)  
   
@@ -47,8 +47,11 @@
 - [AtCoder OUPC 2023 Day1 B Gomamayo](https://atcoder.jp/contests/oupc2023-day1/submissions?f.LanguageName=&f.Status=AC&f.Task=oupc2023_day1_b&f.User=&page=1)  
   一次多項ゴママヨの検出を行う  
   RustやJava, Swift, PHP等で記述されたものもある
+- [open-gomamayo/gomamayo](https://github.com/open-gomamayo/gomamayo)  
+  
 
 ## 参考文献
 - [ゴママヨ\-用語集 \| しなちくシステム](https://thinaticsystem.com/glossary/gomamayo)
 - [【論説】ゴママヨおよびそれに付随するさまざまな現象の研究 - 0と1の間でティータイム](https://3qua9la-notebook.hatenablog.com/entry/2021/04/10/220317)
 - [OUPC 2023 Day1 : 大阪大学セット B Gomamayo](https://atcoder.jp/contests/oupc2023-day1/tasks/oupc2023_day1_b)
+- [Gomamayo Share](https://gomamayo-share.vercel.app/)
