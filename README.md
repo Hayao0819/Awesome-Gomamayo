@@ -26,7 +26,7 @@
   Denoで動作するゴママヨ検出ライブラリ
 - [ThinaticSystem/gomamayo.js](https://github.com/ThinaticSystem/gomamayo.js)  
   Node.jsで動作するしなちくシステム製のライブラリ
-- [otnc/gomamayo.js](https://github.com/otnc/gomamayo.js)
+- [otnc/gomamayo.js](https://github.com/otnc/gomamayo.js)  
   Node.jsのみで動作するKuromoji.jsベースの高精度ゴママヨ検出ライブラリ(MeCab不要)
 ### Python
 - [AkaakuHub/gomamayo](https://github.com/AkaakuHub/gomamayo)  
