@@ -12,7 +12,7 @@
 
 ## 実装
 
-現在 9 個の言語による 13 個の実装が掲載されています。
+現在 9 個の言語による 14 個の実装が掲載されています。
 ### C / C++
 - [jj1lis/gomamayo](https://github.com/jj1lis/gomamayo)  
   
