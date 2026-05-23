@@ -67,6 +67,11 @@ lang = "その他"
 label = "open-gomamayo/gomamayo"
 url = "https://github.com/open-gomamayo/gomamayo"
 
+[[code]]
+lang = "JavaScript / TypeScript"
+label = "otnc/gomamayo.js"
+url = "https://github.com/otnc/gomamayo.js"
+
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"
 url = "https://thinaticsystem.com/glossary/gomamayo"
