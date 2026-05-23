@@ -71,6 +71,7 @@ url = "https://github.com/open-gomamayo/gomamayo"
 lang = "JavaScript / TypeScript"
 label = "otnc/gomamayo.js"
 url = "https://github.com/otnc/gomamayo.js"
+desc = "Node.jsのみで動作するKuromoji.jsベースの高精度ゴママヨ検出ライブラリ(MeCab不要)"
 
 [[websites]]
 title = "ゴママヨ\\-用語集 \\| しなちくシステム"
