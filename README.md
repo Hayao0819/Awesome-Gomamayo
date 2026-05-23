@@ -12,7 +12,7 @@
 
 ## 実装
 
-現在 9 個の言語による 13 個の実装が掲載されています。
+現在 9 個の言語による 14 個の実装が掲載されています。
 ### C / C++
 - [jj1lis/gomamayo](https://github.com/jj1lis/gomamayo)  
   
@@ -26,6 +26,8 @@
   Denoで動作するゴママヨ検出ライブラリ
 - [ThinaticSystem/gomamayo.js](https://github.com/ThinaticSystem/gomamayo.js)  
   Node.jsで動作するしなちくシステム製のライブラリ
+- [otnc/gomamayo.js](https://github.com/otnc/gomamayo.js)  
+  Node.jsのみで動作するKuromoji.jsベースの高精度ゴママヨ検出ライブラリ(MeCab不要)
 ### Python
 - [AkaakuHub/gomamayo](https://github.com/AkaakuHub/gomamayo)  
   
